@@ -8,4 +8,8 @@ return {
   "github/copilot.vim", -- github copilot
 
   "puremourning/vimspector", -- dbugging
+
+  "jwalton512/vim-blade", -- blade 
+
+  "mattn/emmet-vim"
 }

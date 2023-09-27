@@ -33,7 +33,7 @@ return {
         "omnisharp",
         "clangd",
         "jdtls",
-        "intelephense",
+        "phpactor",
         "sqlls",
         "yamlls",
         "lemminx",
