@@ -1,15 +1,18 @@
 return {
-  "nvim-lua/plenary.nvim", -- lua functions that many plugins use
+    "nvim-lua/plenary.nvim", -- lua functions that many plugins use
 
-  "christoomey/vim-tmux-navigator", -- tmux & split window navigation
+    --    "ray-x/starry.nvim", -- colour collections
+    --    "marko-cerovac/material.nvim",
 
-  "inkarkat/vim-ReplaceWithRegister", -- replace with register contents using motion (gr + motion)
+    "christoomey/vim-tmux-navigator", -- tmux & split window navigation
 
-  "github/copilot.vim", -- github copilot
+    "inkarkat/vim-ReplaceWithRegister", -- replace with register contents using motion (gr + motion)
 
-  "puremourning/vimspector", -- dbugging
+    "github/copilot.vim", -- github copilot
 
-  "jwalton512/vim-blade", -- blade 
+    "puremourning/vimspector", -- dbugging
 
-  "mattn/emmet-vim"
+    "jwalton512/vim-blade", -- blade
+
+    "mattn/emmet-vim",
 }

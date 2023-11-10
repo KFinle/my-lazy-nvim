@@ -30,3 +30,11 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  go to next tab
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
+
+-- colours
+keymap.set("n", "<leader>cc", "<cmd>colorscheme<CR>", { desc = "Display current colour scheme" })
+keymap.set("n", "<leader>cn", "<cmd>colorscheme nordic<CR>", { desc = "NORDIC" })
+keymap.set("n", "<leader>cm", "<cmd>colorscheme moonlight<CR>", { desc = "MOONLIGHT" })
+keymap.set("n", "<leader>ck", "<cmd>colorscheme monokai<CR>", { desc = "MONOKAI" })
+-- keymap.set("n", "<leader>cd", "<cmd>colorscheme material<CR>", { desc = "MATERIAL" })
+keymap.set("n", "<leader>ct", "<cmd>colorscheme tokyonight<CR>", { desc = "TOKYONIGHT" })
