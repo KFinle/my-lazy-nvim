@@ -1,3 +1,4 @@
+
 return {
     "nvim-lualine/lualine.nvim",
     dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -52,7 +53,8 @@ return {
         -- configure lualine with modified theme
         lualine.setup({
             options = {
-                theme = "tokyonight",
+                -- theme = "tokyonight",
+                theme = my_lualine_theme,
             },
             sections = {
                 lualine_x = {

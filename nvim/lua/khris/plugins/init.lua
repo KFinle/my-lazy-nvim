@@ -15,4 +15,17 @@ return {
     "jwalton512/vim-blade", -- blade
 
     "mattn/emmet-vim",
+
+    -- bufferline
+    {
+        "akinsho/bufferline.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        version = "*",
+        opts = {
+            options = {
+                mode = "tabs",
+                separator_style = "padded_slant",
+            },
+        },
+    },
 }
