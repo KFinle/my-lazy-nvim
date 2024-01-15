@@ -10,11 +10,19 @@ return {
 
     "github/copilot.vim", -- github copilot
 
-    "puremourning/vimspector", -- dbugging
+    -- "puremourning/vimspector", -- dbugging
 
-    "jwalton512/vim-blade", -- blade
+    -- "jwalton512/vim-blade", -- blade
 
-    "mattn/emmet-vim",
+    -- "mattn/emmet-vim",
+
+    "cohama/lexima.vim", -- better autopair
+
+    -- DAP for debugging
+    "mfussenegger/nvim-dap",
+    -- UI for DAP
+
+    { "rcarriga/nvim-dap-ui", dependencies = { "mfussenegger/nvim-dap" } },
 
     -- bufferline
     {
@@ -27,5 +35,14 @@ return {
                 separator_style = "padded_slant",
             },
         },
+    },
+
+    {
+        "glacambre/firenvim",
+        -- if firenvim -> vim.g.started_by_firenvim == true -> lazy must be false.
+        lazy = not vim.g.started_by_firenvim,
+        build = function()
+            vim.fn["firenvim#install"](0)
+        end,
     },
 }

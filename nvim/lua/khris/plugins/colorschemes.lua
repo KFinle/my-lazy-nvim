@@ -10,4 +10,6 @@ return {
             vim.cmd([[colorscheme nordic]])
         end,
     },
+    --
+    -- Nordic alt
 }
