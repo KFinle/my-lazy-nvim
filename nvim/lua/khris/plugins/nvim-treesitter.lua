@@ -27,7 +27,7 @@ return {
                     "jsdoc",
                     "java",
                     "xml",
-                    "c",
+                    -- "c",
                     "c_sharp",
                     "cpp",
                     "typescript",
@@ -47,6 +47,7 @@ return {
                     "gitignore",
                     "php",
                     "phpdoc",
+                    "go",
                 },
                 -- enable nvim-ts-context-commentstring plugin for commenting tsx and jsx
                 -- context_commentstring = {

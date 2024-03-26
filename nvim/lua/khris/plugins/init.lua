@@ -16,13 +16,15 @@ return {
 
     -- "mattn/emmet-vim",
 
+    "komissarex/vim-progress",
+
     "cohama/lexima.vim", -- better autopair
 
-    -- DAP for debugging
-    "mfussenegger/nvim-dap",
-    -- UI for DAP
-
-    { "rcarriga/nvim-dap-ui", dependencies = { "mfussenegger/nvim-dap" } },
+    -- -- DAP for debugging
+    -- "mfussenegger/nvim-dap",
+    -- -- UI for DAP
+    --
+    -- { "rcarriga/nvim-dap-ui", dependencies = { "mfussenegger/nvim-dap" } },
 
     -- bufferline
     {
@@ -37,12 +39,12 @@ return {
         },
     },
 
-    {
-        "glacambre/firenvim",
-        -- if firenvim -> vim.g.started_by_firenvim == true -> lazy must be false.
-        lazy = not vim.g.started_by_firenvim,
-        build = function()
-            vim.fn["firenvim#install"](0)
-        end,
-    },
+    -- {
+    --     "glacambre/firenvim",
+    --     -- if firenvim -> vim.g.started_by_firenvim == true -> lazy must be false.
+    --     lazy = not vim.g.started_by_firenvim,
+    --     build = function()
+    --         vim.fn["firenvim#install"](0)
+    --     end,
+    -- },
 }

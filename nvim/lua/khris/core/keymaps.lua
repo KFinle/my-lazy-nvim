@@ -45,3 +45,6 @@ keymap.set("n", "<leader>q", "<cmd>bdelete!<CR>", { desc = "Close the current ac
 -- Zen and Twilight
 keymap.set("n", "<leader>ez", "<cmd>ZenMode<CR>", { desc = "Zen Mode" })
 keymap.set("n", "<leader>et", "<cmd>Twilight<CR>", { desc = "Twilight" })
+
+-- search and replace
+keymap.set("n", "<leader>rr", "<cmd>%s/")

@@ -1,0 +1,42 @@
+Content-Length: 175\r\n\r\n{
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": {
+            "capabilities": {
+              "completionProvider": {}
+            }
+          }
+        }
+Content-Length: 188\r\n\r\n{
+          "jsonrpc": "2.0",
+          "id": 2,
+          "result": {
+            "isIncomplete": false,
+            "items": [
+  {
+    "label": "label: apple"
+  }
+]
+          }
+        }
+Content-Length: 175\r\n\r\n{
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": {
+            "capabilities": {
+              "completionProvider": {}
+            }
+          }
+        }
+Content-Length: 181\r\n\r\n{
+          "jsonrpc": "2.0",
+          "id": 2,
+          "result": {
+            "isIncomplete": false,
+            "items": [
+  {
+    "label": "apple"
+  }
+]
+          }
+        }
